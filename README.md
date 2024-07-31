@@ -36,5 +36,5 @@ JOIN
 WHERE 
     pg.valor_pagamento > (p.preco * v.quantidade);
 
-![Resultado](imagens/resultado query.jpg)
+![Resultado](imagens/resultadoquery.jpg)
   
