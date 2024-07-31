@@ -35,6 +35,5 @@ JOIN
     pagamentos pg ON v.venda_id = pg.venda_id
 WHERE 
     pg.valor_pagamento > (p.preco * v.quantidade);
-
+  ```
 ![Resultado](imagens/resultadoquery.jpg)
-  
